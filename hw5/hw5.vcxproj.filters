@@ -14,4 +14,38 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeliveryCompany.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeliveryVehicle.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDeliveryCompany.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDeliveryVehicle.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parcel.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessionalDeliveryCompany.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessionalDeliveryVehicle.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main1.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main3.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
