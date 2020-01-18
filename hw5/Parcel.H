@@ -8,6 +8,9 @@ public:
 	
 	//d'tor
 	~Parcel();
+protected:
+	char* id_;
+	int dest_;
 };
 
 #endif /* PARCEL_H_ */

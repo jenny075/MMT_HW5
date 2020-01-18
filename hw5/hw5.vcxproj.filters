@@ -47,5 +47,8 @@
     <ClCompile Include="main3.C">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Parcel.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
