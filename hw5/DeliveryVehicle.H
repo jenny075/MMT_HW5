@@ -1,8 +1,12 @@
 #ifndef DELIVERYVEHICLE_H_
 #define DELIVERYVEHICLE_H_
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
 #include "Parcel.H"
-
+#include <queue>
+#define MAX_PARCELS 5 
 typedef enum quality{good = 3, ok = 4, bad = 5} Quality;
 
 class DeliveryVehicle{
@@ -29,6 +33,19 @@ public:
 	//if no parcels present:
 	//No parcels to deliver for vehicle riksha
 	int performDeliveryDay(int* numberOfDeliveries);
+	char* getID() const;
+	quality getQuality() const;
+	int getCount() const;
+	int getStopStation() const;
+protected:
+	char* ID_;
+	Quality quality_;
+	queue<*Parcel> parcels_(MAX_PARCELS);
+	int count_;
+	int stopStation_;
+
+
+
 };
 
 #endif /* DELIVERYVEHICLE_H_ */

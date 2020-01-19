@@ -50,5 +50,8 @@
     <ClCompile Include="Parcel.C">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DeliveryVehicle.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
