@@ -7,6 +7,7 @@
 #include "Parcel.H"
 #include <queue>
 #define MAX_PARCELS 5 
+using namespace std;
 typedef enum quality{good = 3, ok = 4, bad = 5} Quality;
 
 class DeliveryVehicle{
@@ -32,11 +33,13 @@ public:
 	//
 	//if no parcels present:
 	//No parcels to deliver for vehicle riksha
-	int performDeliveryDay(int* numberOfDeliveries);
+	virtual int performDeliveryDay(int* numberOfDeliveries);
 	char* getID() const;
-	quality getQuality() const;
+	Quality getQuality() const;
 	int getCount() const;
 	int getStopStation() const;
+	void setStopstation(int stopping_at);
+
 protected:
 	char* ID_;
 	Quality quality_;
