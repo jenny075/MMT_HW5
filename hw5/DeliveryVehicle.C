@@ -58,6 +58,7 @@ virtual int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	}
 	//check if not empty first
 	int way = 0;
+
 	if (parcels_[0]->getDest() >= this.getStopstation()) {
 		way = parcels_[0]->getDest() - this.getStopstation();
 	}
