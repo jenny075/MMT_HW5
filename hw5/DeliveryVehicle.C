@@ -49,5 +49,25 @@ bool DeliveryVehicle::addParcel(Parcel* parcel) {
 
 }
 
+virtual int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
+	int tot=0;
+	int ind = 0;
+	if (parcels_.empty()) {
+		*numberOfDeliveries = 0;
+		return tot;
+	}
+	//check if not empty first
+	int way = 0;
+	if (parcels_[0]->getDest() >= this.getStopstation()) {
+		way = parcels_[0]->getDest() - this.getStopstation();
+	}
+	else {
+		way = (10 - this.getStopstation()) + parcels_[0]->getDest();
+	}
+	
+	while (ind < 5 && tot + way <= 12) {
 
+	}
+
+}
 
