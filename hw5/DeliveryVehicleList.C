@@ -77,7 +77,7 @@ DeliveryVehicleList::isIn(char* id) {
 
 
 DeliveryVehicleList::iter() {
-	DeliveryVehicle* ret   = curr_-item();
+	DeliveryVehicle* ret   = curr_->item();
 	curr_ = curr_->next();
 	if (curr_ == NULL) {
 		curr_ = list_;
@@ -99,4 +99,14 @@ DeliveryVehicleList::~DeliveryVehicleList() {
 		listItem* tmp = list_;
 		list_ = list_->next();
 	}
+}
+
+
+DeliveryVehicleList::reiter() {
+	curr_ = curr_->back();
+}
+
+
+DeliveryVehicleList::Current() {
+	return curr_;
 }

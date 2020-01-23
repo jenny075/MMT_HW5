@@ -42,8 +42,14 @@ public:
 	// iterate over the items in the list
 	DeliveryVehicle* iter();
 
+	//
+	void reiter();
+
 	// resets the iterator to the 1st item in the list.
 	void itereset();
+
+	//
+	DeliveryVehicle* Current();
 
 
 protected:
