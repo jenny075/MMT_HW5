@@ -41,31 +41,31 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main1.C">
+    <ClCompile Include="DeliveryCompany.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main2.C">
+    <ClCompile Include="DeliveryVehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main3.C">
+    <ClCompile Include="DeliveryVehicleList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Parcel.C">
+    <ClCompile Include="FastDeliveryCompany.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DeliveryVehicle.C">
+    <ClCompile Include="main1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DeliveryCompany.C">
+    <ClCompile Include="main2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DeliveryVehicleList.C">
+    <ClCompile Include="main3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FastDeliveryCompany.C">
+    <ClCompile Include="Parcel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ProfessionalDeliveryCompany.C">
+    <ClCompile Include="ProfessionalDeliveryCompany.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

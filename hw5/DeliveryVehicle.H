@@ -7,6 +7,7 @@
 #include "Parcel.H"
 #include <queue>
 #define MAX_PARCELS 5 
+#define PACKAGE_RATE 4
 using namespace std;
 typedef enum quality{good = 3, ok = 4, bad = 5} Quality;
 typedef enum vehicelType { general = 0, fast = 1, professional = 2 } VehicelType;//Yan: jenny, see clue at the bottom of page 4
@@ -41,12 +42,12 @@ public:
 	int getStopStation() const;
 	void setStopstation(int stopping_at);
 
-	VehicelType getType(); //Yan
+	static VehicelType getType() ; //Yan
 
 protected:
 	char* ID_;
 	Quality quality_;
-	queue<*Parcel> parcels_(MAX_PARCELS);
+	queue <Parcel*> *parcels_;
 	int count_;
 	int stopStation_;
 	

@@ -1,516 +1,234 @@
-﻿  DeliveryVehicle.C
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(25,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,100): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(33,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(27,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(35,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(43,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(51,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(59,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,115): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(67,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(75,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(83,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(91,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(99,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(107,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(115,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(123,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,106): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(131,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(139,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,95): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(147,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,88): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(155,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(163,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(171,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(179,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,94): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(187,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,117): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(195,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,102): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(207,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(213,69): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(213,69): fatal error C1003: error count exceeds 100; stopping compilation
-  main1.C
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2061: syntax error: identifier 'FastDeliveryCompany'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2059: syntax error: ';'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,26): error C2449: found '{' at file scope (missing function header?)
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(41,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(25,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,100): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(33,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(27,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(35,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(43,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(51,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(59,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,115): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(67,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(75,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(83,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(91,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(99,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(107,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(115,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(123,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,106): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(131,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(139,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,95): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(147,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,88): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(155,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(163,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(171,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(179,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,94): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(187,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,117): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(195,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): fatal error C1003: error count exceeds 100; stopping compilation
-  main2.C
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2061: syntax error: identifier 'FastDeliveryCompany'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2059: syntax error: ';'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,26): error C2449: found '{' at file scope (missing function header?)
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(41,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(25,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,100): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(33,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(27,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(35,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(43,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(51,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(59,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,115): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(67,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(75,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(83,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(91,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(99,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(107,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(115,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(123,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,106): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(131,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(139,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,95): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(147,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,88): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(155,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(163,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(171,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(179,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,94): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(187,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,117): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(195,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): fatal error C1003: error count exceeds 100; stopping compilation
-  main3.C
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2061: syntax error: identifier 'FastDeliveryCompany'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,7): error C2059: syntax error: ';'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(4,26): error C2449: found '{' at file scope (missing function header?)
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(41,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(25,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,100): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(33,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(27,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(35,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(43,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(51,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(59,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,115): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(67,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(75,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(83,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(91,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(99,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(107,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(115,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(123,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,106): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(131,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(139,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,95): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(147,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,88): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(155,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(163,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(171,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(179,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,94): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(187,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,117): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(195,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): fatal error C1003: error count exceeds 100; stopping compilation
-  Parcel.C
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(23,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(25,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,72): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(31,100): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(33,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(21,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(27,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(33,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(35,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(41,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(43,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(49,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(51,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(57,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(59,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,87): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(65,115): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(67,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(73,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(75,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(81,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(83,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(89,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(91,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(97,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(99,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(105,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(107,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(113,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(115,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,77): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(121,105): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(123,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,78): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(129,106): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(131,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,76): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(137,104): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(139,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,67): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(145,95): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(147,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,60): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(153,88): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(155,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(161,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(163,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,61): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(169,89): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(171,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,62): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(177,90): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(179,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,66): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(185,94): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(187,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,89): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(193,117): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(195,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,74): error C2059: syntax error: ';'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(201,102): error C2449: found '{' at file scope (missing function header?)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(207,1): error C2059: syntax error: '}'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(213,69): error C2061: syntax error: identifier 'noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cmath(213,69): fatal error C1003: error count exceeds 100; stopping compilation
+﻿  DeliveryVehicle.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicle.cpp(5,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+  FastDeliveryCompany.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(5,2): error C2065: 'DeliveryVehicleList': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(5,23): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(5,33): error C3861: 'DeliveryVehicleList': identifier not found
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(7,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(10,38): error C2065: 'DeliveryVehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(10,55): error C2065: 'vehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(10,62): error C2761: 'bool FastDeliveryCompany::addVehicle(void)': redeclaration of member is not allowed
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.cpp(10,64): error C2448: 'FastDeliveryCompany::addVehicle': function-style initializer appears to be a function definition
+  main1.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main1.cpp(13,54): error C2512: 'FastDeliveryCompany::FastDeliveryCompany': no appropriate default constructor available
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main1.cpp(21,25): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main1.cpp(22,27): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,7): message : see declaration of 'FastDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main1.cpp(29,30): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main1.cpp(30,30): error C2660: 'FastDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,7): message : see declaration of 'FastDeliveryCompany::receiveParcel'
+  main2.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(25,27): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(25,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(26,27): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,7): message : see declaration of 'FastDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(27,28): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,7): message : see declaration of 'FastDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(28,26): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,7): message : see declaration of 'FastDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(39,30): error C2660: 'FastDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,7): message : see declaration of 'FastDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(40,26): error C2660: 'FastDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,7): message : see declaration of 'FastDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(41,27): error C2660: 'FastDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,7): message : see declaration of 'FastDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(42,27): error C2660: 'FastDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,7): message : see declaration of 'FastDeliveryCompany::receiveParcel'
+  main3.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(18,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(19,1): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(20,1): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(36,70): error C2440: '=': cannot convert from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(36,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(49,34): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(51,34): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(52,33): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(54,34): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(55,33): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(56,27): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(58,34): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(60,43): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(80,26): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(80,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(83,29): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'FastDeliveryVehicle *' to 'DeliveryVehicle *'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(83,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
+  Parcel.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\Parcel.cpp(6,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+  DeliveryCompany.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(5,2): error C2065: 'DeliveryVehicleList': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(5,23): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(5,33): error C3861: 'DeliveryVehicleList': identifier not found
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(7,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(11,14): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(16,2): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(23,24): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(31,8): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(34,2): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(41,24): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(52,8): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(61,2): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.cpp(71,1): error C2143: syntax error: missing ';' before '}'
+  DeliveryVehicleList.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(7,20): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(8,20): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(13,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(13,18): error C2556: 'int listItem::item(void)': overloaded function differs only by return type from 'void *listItem::item(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(15): message : see declaration of 'listItem::item'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(13,11): error C2040: 'listItem::item': 'int (void)' differs in levels of indirection from 'void *(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(18,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(18,18): error C2556: 'int listItem::next(void)': overloaded function differs only by return type from 'listItem *listItem::next(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(17): message : see declaration of 'listItem::next'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(18,11): error C2040: 'listItem::next': 'int (void)' differs in levels of indirection from 'listItem *(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(22,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(22,35): error C2556: 'int listItem::nextSet(listItem *)': overloaded function differs only by return type from 'void listItem::nextSet(listItem *)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(19): message : see declaration of 'listItem::nextSet'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(22,11): error C2371: 'listItem::nextSet': redefinition; different basic types
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(19): message : see declaration of 'listItem::nextSet'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(27,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(27,18): error C2556: 'int listItem::back(void)': overloaded function differs only by return type from 'listItem *listItem::back(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(18): message : see declaration of 'listItem::back'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(27,11): error C2040: 'listItem::back': 'int (void)' differs in levels of indirection from 'listItem *(void)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(31,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(31,35): error C2556: 'int listItem::backSet(listItem *)': overloaded function differs only by return type from 'void listItem::backSet(listItem *)'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(20): message : see declaration of 'listItem::backSet'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(31,11): error C2371: 'listItem::backSet': redefinition; different basic types
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(20): message : see declaration of 'listItem::backSet'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(43,41): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(43,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(44,20): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(45,20): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(46,1): warning C4508: 'DeliveryVehicleList': function should return a value; 'void' return type assumed
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(49,32): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(49,33): error C2065: 'DeliveryVehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(49,50): error C2065: 'newDV': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(49,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(49,57): error C2448: 'addVehicle': function-style initializer appears to be a function definition
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(63,26): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(63,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(64,2): error C2065: 'itemList': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(64,12): error C2065: 'curr': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(64,19): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(65,6): error C2065: 'curr': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(65,14): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(66,14): error C2065: 'curr': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(66,7): error C3861: 'strcmp': identifier not found
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(70,9): error C2065: 'curr': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(70,25): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(71,14): error C2065: 'curr': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(71,7): error C3861: 'strcmp': identifier not found
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(79,26): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(79,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(80,2): error C2065: 'DeliveryVehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(80,19): error C2065: 'ret': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(80,27): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(81,2): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(81,10): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(82,6): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(82,15): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(83,3): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(83,11): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(85,9): error C2065: 'ret': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(86,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(88,30): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(88,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(89,2): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(89,10): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(90,1): warning C4508: 'itereset': function should return a value; 'void' return type assumed
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(93,42): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(93,42): error C2523: '<Unknown>::~DeliveryVehicleList': destructor tag mismatch
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(93,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(93,45): error C2084: function 'int DeliveryVehicleList(void)' already has a body
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(43): message : see previous definition of 'DeliveryVehicleList'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(94,2): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(94,10): error C2065: 'Null': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(95,18): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(96,2): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(96,10): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(97,16): error C2065: 'NULL': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(99,19): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(100,3): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(100,11): error C2065: 'list_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(105,28): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(105,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(106,2): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(106,10): error C2065: 'curr_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(107,1): warning C4508: 'reiter': function should return a value; 'void' return type assumed
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(110,29): error C2653: 'DeliveryVehicleList': is not a class or namespace name
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(110,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.cpp(111,9): error C2065: 'curr_': undeclared identifier
+  ProfessionalDeliveryCompany.cpp
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(5,2): error C2065: 'DeliveryVehicleList': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(5,23): error C2065: 'DVList_': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(5,33): error C3861: 'DeliveryVehicleList': identifier not found
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(7,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,46): error C2065: 'DeliveryVehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,63): error C2065: 'vehicle': undeclared identifier
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,70): error C2761: 'bool ProfessionalDeliveryCompany::addVehicle(void)': redeclaration of member is not allowed
+C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,72): error C2448: 'ProfessionalDeliveryCompany::addVehicle': function-style initializer appears to be a function definition
   Generating Code...
