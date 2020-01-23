@@ -61,7 +61,7 @@ int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	if (parcels_->empty()) {
 		*numberOfDeliveries = 0;
 		cout << "No parcels to deliver for vehicle " << getID() << endl;
-		tot = (-1) * getQuality();
+		tot = 0;
 		return tot;
 	}
 	//check if not empty first
@@ -94,10 +94,11 @@ int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 
 
 	}
+	*numberOfDeliveries = ind;
 	cout << "Total travel distance is " << tot << endl;
 	revenue = ind * PACKAGE_RATE - tot - getQuality();
 	cout << "Total revenue is " << revenue << endl;
-
+	return revenue;
 }
 
 

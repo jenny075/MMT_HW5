@@ -68,5 +68,11 @@
     <ClCompile Include="ProfessionalDeliveryCompany.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FastDeliveryVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessionalDeliveryVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

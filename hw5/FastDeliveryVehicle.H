@@ -1,7 +1,12 @@
 #ifndef FASTDELIVERYVEHICLE_H_
 #define FASTDELIVERYVEHICLE_H_
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
+#include "DeliveryVehicle.H"
 
-class FastDeliveryVehicle{
+class FastDeliveryVehicle : public DeliveryVehicle {
 public:
 	
 	//c'tor

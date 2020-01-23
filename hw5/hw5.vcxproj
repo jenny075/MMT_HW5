@@ -157,6 +157,8 @@
     <ClCompile Include="DeliveryCompany.cpp" />
     <ClCompile Include="DeliveryVehicleList.cpp" />
     <ClCompile Include="ProfessionalDeliveryCompany.cpp" />
+    <ClCompile Include="FastDeliveryVehicle.cpp" />
+    <ClCompile Include="ProfessionalDeliveryVehicle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

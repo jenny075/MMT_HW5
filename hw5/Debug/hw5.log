@@ -45,9 +45,6 @@ C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryVehicleList.H(27,27): error
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(25,27): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(25,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(26,27): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\FastDeliveryCompany.H(17,7): message : see declaration of 'FastDeliveryCompany::addVehicle'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main2.cpp(27,28): error C2660: 'FastDeliveryCompany::addVehicle': function does not take 1 arguments
@@ -80,8 +77,6 @@ C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(19,1): error C4996: 'spri
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(20,1): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(36,70): error C2440: '=': cannot convert from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(36,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(49,34): error C2660: 'ProfessionalDeliveryCompany::addVehicle': function does not take 1 arguments
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(17,7): message : see declaration of 'ProfessionalDeliveryCompany::addVehicle'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(51,34): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
@@ -98,12 +93,6 @@ C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(58,34): error C2660: 'Pro
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(60,43): error C2660: 'ProfessionalDeliveryCompany::receiveParcel': function does not take 1 arguments
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.H(21,7): message : see declaration of 'ProfessionalDeliveryCompany::receiveParcel'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(80,26): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'ProfessionalDeliveryVehicle *' to 'DeliveryVehicle *'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(80,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(83,29): error C2664: 'bool DeliveryCompany::addVehicle(DeliveryVehicle *)': cannot convert argument 1 from 'FastDeliveryVehicle *' to 'DeliveryVehicle *'
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\main3.cpp(83,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\DeliveryCompany.H(19,7): message : see declaration of 'DeliveryCompany::addVehicle'
   Parcel.cpp
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\Parcel.cpp(6,1): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
@@ -231,4 +220,6 @@ C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,63): error C2065: 'vehicle': undeclared identifier
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,70): error C2761: 'bool ProfessionalDeliveryCompany::addVehicle(void)': redeclaration of member is not allowed
 C:\Users\Jenny\source\repos\hw5\hw5_repo\hw5\ProfessionalDeliveryCompany.cpp(10,72): error C2448: 'ProfessionalDeliveryCompany::addVehicle': function-style initializer appears to be a function definition
+  FastDeliveryVehicle.cpp
+  ProfessionalDeliveryVehicle.cpp
   Generating Code...
