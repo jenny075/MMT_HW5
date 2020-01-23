@@ -79,7 +79,7 @@ int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 		cout << "Delivering parcel " << parcels_->front()->getID() << " to position "<< parcels_->front()->getDest() << endl;
 		setStopstation(parcels_->front()->getDest());
 		ind++;
-		cout << "Fuel consumed : " << way << " Revenue is : " << PACKAGE_RATE ;
+		cout << "Fuel consumed : " << way << " Revenue is : " << PACKAGE_RATE << endl;
 		parcels_->pop();
 		if (!parcels_->empty()) {
 			if (parcels_->front()->getDest() >= getStopStation()) {
