@@ -62,5 +62,11 @@
     <ClCompile Include="DeliveryVehicleList.C">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FastDeliveryCompany.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessionalDeliveryCompany.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

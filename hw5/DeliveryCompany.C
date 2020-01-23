@@ -37,7 +37,7 @@ bool DeliveryCompany::receiveParcel(Parcel* parcel) {
 }
 
 
-bool performDeliveryDay() {
+bool DeliveryCompany::performDeliveryDay() {
 	DeliveryVehicle* DV = DVList_->iter();
 	char* start = DV->getID();
 	char* key = NULL;
@@ -66,12 +66,12 @@ bool performDeliveryDay() {
 }
 
 
-void displayFunds() {
+void DeliveryCompany::displayFunds() {
 	cout << "Company balance is now  " << money_
 }
 
 
-void displayNumberOfDeliveries() {
+void DeliveryCompany::displayNumberOfDeliveries() {
 	cout << "Till now company has delivered " << deliveryNum_ << " parcels" << endl;
 }
 
