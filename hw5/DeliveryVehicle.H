@@ -9,6 +9,7 @@
 #define MAX_PARCELS 5 
 using namespace std;
 typedef enum quality{good = 3, ok = 4, bad = 5} Quality;
+typedef enum vehicelType { general = 0, fast = 1, professional = 2 } VehicelType;//Yan: jenny, see clue at the bottom of page 4
 
 class DeliveryVehicle{
 public:
@@ -40,14 +41,16 @@ public:
 	int getStopStation() const;
 	void setStopstation(int stopping_at);
 
+	VehicelType getType(); //Yan
+
 protected:
 	char* ID_;
 	Quality quality_;
 	queue<*Parcel> parcels_(MAX_PARCELS);
 	int count_;
 	int stopStation_;
-
-
+	
+	static VehicelType type_; //Yan
 
 };
 

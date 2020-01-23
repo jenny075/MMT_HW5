@@ -142,6 +142,7 @@
     <ClInclude Include="DeliveryVehicle.H" />
     <ClInclude Include="FastDeliveryCompany.H" />
     <ClInclude Include="FastDeliveryVehicle.H" />
+    <ClInclude Include="DeliveryVehicleList.H" />
     <ClInclude Include="Parcel.H" />
     <ClInclude Include="ProfessionalDeliveryCompany.H" />
     <ClInclude Include="ProfessionalDeliveryVehicle.H" />
@@ -152,6 +153,8 @@
     <ClCompile Include="main2.C" />
     <ClCompile Include="main3.C" />
     <ClCompile Include="Parcel.C" />
+    <ClCompile Include="DeliveryCompany.C" />
+    <ClCompile Include="DeliveryVehicleList.C" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

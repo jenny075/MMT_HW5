@@ -72,3 +72,9 @@ virtual int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 
 }
 
+
+DeliveryVehicle::type_ = general; //Yan: Jenny, change this in child classes plz.
+
+VehicelType getType() { //Yan
+	return type_;
+}

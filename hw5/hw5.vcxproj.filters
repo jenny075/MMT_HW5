@@ -36,6 +36,9 @@
     <ClInclude Include="ProfessionalDeliveryVehicle.H">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DeliveryVehicleList.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main1.C">
@@ -51,6 +54,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DeliveryVehicle.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeliveryCompany.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeliveryVehicleList.C">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

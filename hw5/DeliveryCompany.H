@@ -39,6 +39,15 @@ public:
 	//output example:
 	//Till now company has delivered 3 parcels
 	void displayNumberOfDeliveries();
+
+
+protected:
+	int money_;
+	DeliveryVehicleList* DVList_;
+	int deliveryNum_;
+
+
+
 };
 
 #endif /* DELIVERYCOMPANY_H_ */
