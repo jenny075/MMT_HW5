@@ -1,11 +1,2 @@
-﻿  DeliveryVehicle.cpp
-  FastDeliveryCompany.cpp
-  main1.cpp
-  Parcel.cpp
-  DeliveryCompany.cpp
-  DeliveryVehicleList.cpp
-  ProfessionalDeliveryCompany.cpp
-  FastDeliveryVehicle.cpp
-  ProfessionalDeliveryVehicle.cpp
-  Generating Code...
+﻿  DeliveryCompany.cpp
   hw5.vcxproj -> C:\Users\Yan\source\repos\MMT_HW5\hw5\Debug\hw5.exe

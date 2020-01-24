@@ -2,9 +2,9 @@
 
 
 DeliveryCompany::DeliveryCompany(int money) {
-	int money_ = money;
-	DeliveryVehicleList* DVList_ = new DeliveryVehicleList();
-	int deliveryNum_ = 0;
+	money_ = money;
+	DVList_ = new DeliveryVehicleList();
+	deliveryNum_ = 0;
 
 }
 
@@ -24,15 +24,15 @@ bool DeliveryCompany::receiveParcel(Parcel* parcel) {
 	//DVList_->itereset();
 	DeliveryVehicle* DV = DVList_->iter();
 	char* start = DV->getID();
-	char* key = NULL;
-
-	while (strcmp(key, start) != 0) {
+	char* key;
+	do {
 		if (DV->addParcel(parcel)) {
 			return true;
 		}
 		DV = DVList_->iter();
 		key = DV->getID();
-	}
+	} while (strcmp(key, start) != 0);
+	delete key;
 	DVList_->reiter();
 	delete parcel;
 	return false;
@@ -73,7 +73,7 @@ bool DeliveryCompany::performDeliveryDay() {
 
 
 void DeliveryCompany::displayFunds() {
-	cout << "Company balance is now  " << money_;
+	cout << "Company balance is now  " << money_<< endl;
 }
 
 

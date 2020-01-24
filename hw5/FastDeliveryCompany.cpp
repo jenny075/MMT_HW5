@@ -5,7 +5,7 @@ FastDeliveryCompany::FastDeliveryCompany(int money): DeliveryCompany(money) {
 
 
 bool FastDeliveryCompany::addVehicle(DeliveryVehicle* vehicle) {
-	if (vehicle->getType() == fast) {
+	if (vehicle->getType() != fast) {
 		delete vehicle;
 		return false;
 	}

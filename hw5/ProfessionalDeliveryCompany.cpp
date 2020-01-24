@@ -6,7 +6,7 @@ ProfessionalDeliveryCompany::ProfessionalDeliveryCompany(int money):DeliveryComp
 
 
 bool ProfessionalDeliveryCompany::addVehicle(DeliveryVehicle* vehicle) {
-	if (vehicle->getType() == professional) {
+	if (vehicle->getType() != professional) {
 		delete vehicle;
 		return false;
 	}

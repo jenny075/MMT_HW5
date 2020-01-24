@@ -3,9 +3,9 @@
 
 
 listItem::listItem(DeliveryVehicle* item) {
-	DeliveryVehicle* item_     = item;
-	listItem* back_ = NULL;
-	listItem* next_ = NULL;
+	item_     = item;
+	back_ = NULL;
+	next_ = NULL;
 	
 }
 
@@ -41,15 +41,15 @@ listItem::~listItem() {
 
 
 DeliveryVehicleList::DeliveryVehicleList() {
-	listItem* list_ = NULL;
-	listItem* curr_ = NULL;
+	list_ = NULL;
+	curr_ = NULL;
 }
 
 
 void DeliveryVehicleList::addVehicle(DeliveryVehicle* newDV) {
 	listItem* curr = list_;
 	if (curr == NULL) {
-		listItem* list_ = new listItem(newDV);
+		list_ = new listItem(newDV);
 		curr_ = list_;
 	}
 	else {
@@ -64,7 +64,7 @@ bool DeliveryVehicleList::isIn(char* id) {
 	if (list_ == NULL) {
 		return false;
 	}
-	listItem* curr = (listItem * )list_;
+	listItem* curr = list_;
 	if (curr != NULL) {
 		if (strcmp(((DeliveryVehicle*)(list_->item()))->getID(), id) == 0) {
 			return true;
@@ -102,8 +102,10 @@ DeliveryVehicleList::~DeliveryVehicleList(){
 	list_ = list_->next();
 	while (tmp != NULL) {
 		delete tmp;
-		listItem* tmp = list_;
-		list_ = list_->next();
+		tmp = list_;
+		if (list_ != NULL) {
+			list_ = list_->next();
+		}
 	}
 }
 
