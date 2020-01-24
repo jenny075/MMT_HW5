@@ -1,0 +1,10 @@
+#!/bin/bash
+for filename in *.$1
+# Traverse list of files ending with 1st argument.
+do
+  mv $filename ${filename%$1}$2
+  #  Strip off part of filename matching 1st argument,
+  #+ then append 2nd argument.
+done
+
+exit 0
