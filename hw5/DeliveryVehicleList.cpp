@@ -41,7 +41,7 @@ listItem::~listItem() {
 
 
 DeliveryVehicleList::DeliveryVehicleList() {
-	void* list_     = NULL;
+	listItem* list_ = NULL;
 	listItem* curr_ = NULL;
 }
 
@@ -93,7 +93,7 @@ void DeliveryVehicleList::itereset() {
 }
 
 
-DeliveryVehicleList::~DeliveryVehicleList() {
+DeliveryVehicleList::~DeliveryVehicleList(){
 	curr_ = NULL;
 	listItem* tmp = list_;
 	list_ = list_->next();

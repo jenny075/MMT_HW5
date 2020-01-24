@@ -1,13 +1,14 @@
 #ifndef PROFESSIONALDELIVERYCOMPANY_H_
 #define PROFESSIONALDELIVERYCOMPANY_H_
+#include "DeliveryCompany.H"
 
-class ProfessionalDeliveryCompany{
+class ProfessionalDeliveryCompany:public DeliveryCompany{
 public:
 	//c'tor
 	ProfessionalDeliveryCompany(int money);
 	
 	//d'tor
-	~ProfessionalDeliveryCompany();
+	//~ProfessionalDeliveryCompany();
 	
 	//adds vehicle to vehicle queue
 	//if vehicle exists - output is
@@ -18,7 +19,7 @@ public:
 	
 	//receives parcel if possible
 	//returns false if not possible and deletes parcel
-	bool receiveParcel(Parcel* parcel);
+	//bool receiveParcel(Parcel* parcel);
 	
 	//performs all deliveries possible for one day
 	//returns false if no vehicles are present
@@ -27,17 +28,17 @@ public:
 	//<here comes output for each vehicle>
 	//Total revenue for company is -2
 	//Company balance is now 123
-	bool performDeliveryDay();
+	//bool performDeliveryDay();
 	
 	//displays company funds
 	//output example:
 	//Company balance is now 148
-	void displayFunds();
+	//void displayFunds();
 	
 	//displays number of deliveries company has done so far
 	//output example:
 	//Till now company has delivered 3 parcels
-	void displayNumberOfDeliveries();
+	//void displayNumberOfDeliveries();
 };
 
 #endif /* PROFESSIONALDELIVERYCOMPANY_H_ */

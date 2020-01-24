@@ -1,5 +1,6 @@
 #include "ProfessionalDeliveryCompany.H"
 
+
 ProfessionalDeliveryCompany::ProfessionalDeliveryCompany(int money = 100) {
 	int money_ = money;
 	DeliveryVehicleList* DVList_ = DeliveryVehicleList();

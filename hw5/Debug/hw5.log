@@ -10,8 +10,9 @@ C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,21): error C2143: syn
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\FastDeliveryCompany.cpp(12,14): error C2065: 'DVList_': undeclared identifier
-  main1.cpp
 C:\Users\Yan\source\repos\MMT_HW5\hw5\FastDeliveryCompany.cpp(17,2): error C2065: 'DVList_': undeclared identifier
+  main1.cpp
+C:\Users\Yan\source\repos\MMT_HW5\hw5\FastDeliveryCompany.cpp(21,45): error C2600: 'FastDeliveryCompany::~FastDeliveryCompany': cannot define a compiler-generated special member function (must be declared in the class first)
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
@@ -71,28 +72,6 @@ C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,1): error C2236: 
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(13,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(13,18): error C2556: 'int listItem::item(void)': overloaded function differs only by return type from 'void *listItem::item(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(15): message : see declaration of 'listItem::item'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(13,11): error C2040: 'listItem::item': 'int (void)' differs in levels of indirection from 'void *(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(18,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(18,18): error C2556: 'int listItem::next(void)': overloaded function differs only by return type from 'listItem *listItem::next(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(17): message : see declaration of 'listItem::next'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(18,11): error C2040: 'listItem::next': 'int (void)' differs in levels of indirection from 'listItem *(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(22,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(22,35): error C2556: 'int listItem::nextSet(listItem *)': overloaded function differs only by return type from 'void listItem::nextSet(listItem *)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(19): message : see declaration of 'listItem::nextSet'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(22,11): error C2371: 'listItem::nextSet': redefinition; different basic types
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(19): message : see declaration of 'listItem::nextSet'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(27,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(27,18): error C2556: 'int listItem::back(void)': overloaded function differs only by return type from 'listItem *listItem::back(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(18): message : see declaration of 'listItem::back'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(27,11): error C2040: 'listItem::back': 'int (void)' differs in levels of indirection from 'listItem *(void)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(31,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(31,35): error C2556: 'int listItem::backSet(listItem *)': overloaded function differs only by return type from 'void listItem::backSet(listItem *)'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(20): message : see declaration of 'listItem::backSet'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(31,11): error C2371: 'listItem::backSet': redefinition; different basic types
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(20): message : see declaration of 'listItem::backSet'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(43,41): error C2653: 'DeliveryVehicleList': is not a class or namespace name
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(43,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(46,1): warning C4508: 'DeliveryVehicleList': function should return a value; 'void' return type assumed
@@ -114,8 +93,8 @@ C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(92,2): error C2065
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(92,10): error C2065: 'list_': undeclared identifier
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,42): error C2653: 'DeliveryVehicleList': is not a class or namespace name
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,42): error C2523: '<Unknown>::~DeliveryVehicleList': destructor tag mismatch
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,45): error C2084: function 'int DeliveryVehicleList(void)' already has a body
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(96,44): error C2084: function 'int DeliveryVehicleList(void)' already has a body
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(43): message : see previous definition of 'DeliveryVehicleList'
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(97,2): error C2065: 'curr_': undeclared identifier
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(98,18): error C2065: 'list_': undeclared identifier
@@ -128,15 +107,20 @@ C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(108,33): error C26
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(109,2): error C2065: 'curr_': undeclared identifier
   ProfessionalDeliveryCompany.cpp
 C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.cpp(109,10): error C2065: 'curr_': undeclared identifier
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.H(17,33): error C2061: syntax error: identifier 'DeliveryVehicle'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.H(21,27): error C2061: syntax error: identifier 'Parcel'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(5,2): error C2065: 'DeliveryVehicleList': undeclared identifier
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(5,23): error C2065: 'DVList_': undeclared identifier
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(5,33): error C3861: 'DeliveryVehicleList': identifier not found
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(7,1): error C2143: syntax error: missing ';' before '}'
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(10,46): error C2065: 'DeliveryVehicle': undeclared identifier
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(10,63): error C2065: 'vehicle': undeclared identifier
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(10,70): error C2761: 'bool ProfessionalDeliveryCompany::addVehicle(void)': redeclaration of member is not allowed
-  ProfessionalDeliveryVehicle.cpp
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,1): error C2236: unexpected token 'class'. Did you forget a ';'?
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2059: syntax error: '{'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2143: syntax error: missing ';' before '{'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryVehicleList.H(27,27): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,21): error C2143: syntax error: missing ';' before '*'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(46,30): error C2238: unexpected token(s) preceding ';'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(4,75): error C2512: 'DeliveryCompany': no appropriate default constructor available
+C:\Users\Yan\source\repos\MMT_HW5\hw5\DeliveryCompany.H(6,7): message : see declaration of 'DeliveryCompany'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(6,2): error C2065: 'DeliveryVehicleList': undeclared identifier
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(6,23): error C2065: 'DVList_': undeclared identifier
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(6,33): error C3861: 'DeliveryVehicleList': identifier not found
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(8,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(12,28): error C2065: 'proffesional': undeclared identifier
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(16,14): error C2065: 'DVList_': undeclared identifier
   Generating Code...
-C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(10,72): error C2448: 'ProfessionalDeliveryCompany::addVehicle': function-style initializer appears to be a function definition
+C:\Users\Yan\source\repos\MMT_HW5\hw5\ProfessionalDeliveryCompany.cpp(21,2): error C2065: 'DVList_': undeclared identifier
