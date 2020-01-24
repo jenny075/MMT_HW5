@@ -36,10 +36,20 @@ public:
 	//if no parcels present:
 	//No parcels to deliver for vehicle riksha
 	virtual int performDeliveryDay(int* numberOfDeliveries);
+
+	//returns the ID_ member
 	char* getID() const;
+
+	//returns the quality_ member
 	Quality getQuality() const;
+
+	//returns the count_ member
 	int getCount() const;
+
+	//returns the stopStation_ member
 	int getStopStation() const;
+
+	//chanching the value of the memeber stopStation_ to stopping_at
 	void setStopstation(int stopping_at);
 
 	VehicelType getType() ; //Yan

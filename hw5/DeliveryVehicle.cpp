@@ -1,5 +1,7 @@
 #include "DeliveryVehicle.H"
 using namespace std;
+
+//c'tor of the class - DeliveryVehicle 
 DeliveryVehicle::DeliveryVehicle(const char* ID, Quality quality) {
 	ID_ = new char[strlen(ID) + 1];
 	strcpy(ID_, ID);
@@ -10,26 +12,35 @@ DeliveryVehicle::DeliveryVehicle(const char* ID, Quality quality) {
 	type_ = general;
 
 }
+
+//returns the ID_ member
 char* DeliveryVehicle::getID() const {
 	return ID_;
 }
 
+//returns the quality_ member
 Quality DeliveryVehicle::getQuality() const {
 	return quality_;
 }
 
+
+//returns the count_ member
 int DeliveryVehicle::getCount() const {
 	return count_;
 }
 
+//returns the stopStation_ member
 int DeliveryVehicle::getStopStation() const {
 	return stopStation_;
 }
 
+//chanching the value of the memeber stopStation_ to stopping_at
 void DeliveryVehicle::setStopstation(int stopping_at)  {
 	stopStation_= stopping_at;
 }
 
+// Adding parcel to member parcels_
+// If successed return else  return false
 bool DeliveryVehicle::addParcel(Parcel* parcel) {
 	int i = 0;
 	if (getCount() >= MAX_PARCELS)
@@ -53,7 +64,8 @@ bool DeliveryVehicle::addParcel(Parcel* parcel) {
 
 
 }
-
+// preform all the deliveries per one day.
+// Retuening the total revenue and changing the value of the *numberOfDeliveries to the amount deliverd 
 int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	int tot=0;
 	int ind = 0;
@@ -101,11 +113,13 @@ int DeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	return revenue;
 }
 
-
+//returns the type_ member
 VehicelType DeliveryVehicle::getType()  { //Yan
 	return type_;
 }
 
+
+//D'tor of the class DeliveryVehicle
 DeliveryVehicle::~DeliveryVehicle() {
 	delete[] ID_;
 	while (!parcels_->empty()) {
