@@ -1,14 +1,20 @@
 #include "FastDeliveryVehicle.H"
 
+
+//of the class - FastDeliveryVehicle
 FastDeliveryVehicle::FastDeliveryVehicle(const char* ID, Quality quality) : DeliveryVehicle(ID, quality) {
 	type_ = fast;
 
 }
-
+// Adding parcel to member parcels_
+// If successed return else  return false
 bool  FastDeliveryVehicle::addParcel(Parcel* parcel) {
 	return  DeliveryVehicle::addParcel(parcel);
 }
 
+
+// preform all the deliveries per one day.
+// Retuening the total revenue and changing the value of the *numberOfDeliveries to the amount deliverd 
 int FastDeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	int tot = 0;
 	int ind = 0;
@@ -55,7 +61,7 @@ int FastDeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	cout << "Total revenue is " << revenue << endl;
 	return revenue;
 }
-
+//D'tor
 FastDeliveryVehicle::~FastDeliveryVehicle() {
 	
 }

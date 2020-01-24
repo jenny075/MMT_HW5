@@ -19,6 +19,8 @@ public:
 	//adds parcel to vehicle returns false if add failed
 	bool addParcel(Parcel* parcel);
 
+
+	//performs all possible deliveries for one day
 	int performDeliveryDay(int* numberOfDeliveries);
 	
 	

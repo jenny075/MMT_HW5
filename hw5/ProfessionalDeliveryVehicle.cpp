@@ -1,9 +1,13 @@
 #include "ProfessionalDeliveryVehicle.H"
+
+//C'tor of the calss ProfessionalDeliveryVehicle
 ProfessionalDeliveryVehicle::ProfessionalDeliveryVehicle(const char* ID, Quality quality) : DeliveryVehicle(ID, quality) {
 	type_ = professional;
 
 }
 
+//Adds parcel to member parcels_
+//If successed return true else false
 bool ProfessionalDeliveryVehicle::addParcel(Parcel* parcel) {
 	if (parcels_->empty()) {
 		return  DeliveryVehicle::addParcel(parcel);
@@ -16,6 +20,7 @@ bool ProfessionalDeliveryVehicle::addParcel(Parcel* parcel) {
 		return false;
 	}
 }
+
 
 int  ProfessionalDeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	int tot = 0;
