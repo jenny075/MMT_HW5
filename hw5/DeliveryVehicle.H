@@ -42,7 +42,7 @@ public:
 	int getStopStation() const;
 	void setStopstation(int stopping_at);
 
-	static VehicelType getType() ; //Yan
+	VehicelType getType() ; //Yan
 
 protected:
 	char* ID_;
@@ -51,7 +51,7 @@ protected:
 	int count_;
 	int stopStation_;
 	
-	static VehicelType type_; //Yan
+	VehicelType type_; //Yan
 
 };
 

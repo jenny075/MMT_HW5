@@ -1,4 +1,9 @@
 #include "Parcel.H"
+//#ifndef _CRT_SECURE_NO_WARNINGS
+//#define _CRT_SECURE_NO_WARNINGS
+//#endif
+#pragma warning(disable:4996)
+
 
 Parcel::Parcel(const char* ID, int dest) {
 	dest_ = dest;

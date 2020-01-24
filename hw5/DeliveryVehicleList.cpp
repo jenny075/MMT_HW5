@@ -61,7 +61,10 @@ void DeliveryVehicleList::addVehicle(DeliveryVehicle* newDV) {
 
 
 bool DeliveryVehicleList::isIn(char* id) {
-	listItem* curr = list_;
+	if (list_ == NULL) {
+		return false;
+	}
+	listItem* curr = (listItem * )list_;
 	if (curr != NULL) {
 		if (strcmp(((DeliveryVehicle*)(list_->item()))->getID(), id) == 0) {
 			return true;

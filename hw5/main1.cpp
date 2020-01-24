@@ -5,7 +5,6 @@
 #include "FastDeliveryVehicle.H"
 #include "ProfessionalDeliveryVehicle.H"
 #include "Parcel.H"
-#define _CRT_SECURE_NO_WARNINGS 1
 
 int main()
 {
