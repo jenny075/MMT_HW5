@@ -1,11 +1,15 @@
 #ifndef PROFESSIONALDELIVERYCOMPANY_H_
 #define PROFESSIONALDELIVERYCOMPANY_H_
 #include "DeliveryCompany.H"
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
 
 class ProfessionalDeliveryCompany:public DeliveryCompany{
 public:
 	//c'tor
-	ProfessionalDeliveryCompany(int money);
+	ProfessionalDeliveryCompany(int money = 100);
 	
 	//d'tor
 	//~ProfessionalDeliveryCompany();

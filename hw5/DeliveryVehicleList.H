@@ -1,6 +1,12 @@
 #ifndef DELIVERYVEHICLELIST_H_
 #define DELIVERYVEHICLELIST_H_
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
+
 #include "DeliveryVehicle.H"
+
 class listItem {
 protected:
 	listItem* back_;
@@ -13,7 +19,7 @@ public:
 	listItem(void* item);
 
 	void* item();
-	
+
 	listItem* next();
 	listItem* back();
 	void nextSet(listItem* next);
@@ -21,10 +27,9 @@ public:
 
 	//d'tor
 	~listItem();
-}
+};
 
-
-class DeliveryVehicleList{
+class DeliveryVehicleList {
 protected:
 	listItem* list_;
 	listItem* curr_;
@@ -51,6 +56,5 @@ public:
 
 	// resets the iterator to the 1st item in the list.
 	void itereset();
-
-}
+};
 #endif /* FASTDELIVERYVEHICLE_H_ */

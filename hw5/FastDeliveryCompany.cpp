@@ -1,6 +1,6 @@
 #include "FastDeliveryCompany.H"
 
-FastDeliveryCompany::FastDeliveryCompany(int money = 100): DeliveryCompany(money) {
+FastDeliveryCompany::FastDeliveryCompany(int money): DeliveryCompany(money) {
 }
 
 
@@ -18,9 +18,7 @@ bool FastDeliveryCompany::addVehicle(DeliveryVehicle* vehicle) {
 	return true;
 }
 
-FastDeliveryCompany::~FastDeliveryCompany() {
 
-}
 
 
 

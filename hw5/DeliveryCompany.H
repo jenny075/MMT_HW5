@@ -1,12 +1,17 @@
 #ifndef DELIVERYCOMPANY_H_
 #define DELIVERYCOMPANY_H_
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
+
 #include "DeliveryVehicle.H"
 #include "DeliveryVehicleList.H"
 
 class DeliveryCompany{
 public:
 	//c'tor
-	DeliveryCompany(int money);
+	DeliveryCompany(int money = 100);
 	
 	//d'tor
 	~DeliveryCompany();

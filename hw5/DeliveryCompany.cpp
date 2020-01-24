@@ -1,6 +1,7 @@
 #include "DeliveryCompany.H"
 
-DeliveryCompany::DeliveryCompany(int money = 100) {
+
+DeliveryCompany::DeliveryCompany(int money) {
 	int money_ = money;
 	DeliveryVehicleList* DVList_ = new DeliveryVehicleList();
 	int deliveryNum_ = 0;
@@ -40,22 +41,26 @@ bool DeliveryCompany::receiveParcel(Parcel* parcel) {
 
 bool DeliveryCompany::performDeliveryDay() {
 	DeliveryVehicle* DV = DVList_->iter();
+	if (DV == NULL) {
+		return false;
+	}
 	char* start = DV->getID();
 	char* key = NULL;
 	int totalDeliveries = 0;
-	int revenue;
-	int totalRevenue;
-	int* delNum;
+	int revenue = 0;
+	int totalRevenue = 0;
+	int delNum = 0;
+	int* PdelNum = &delNum;
 	cout << "Starting days deliveries:" << endl;
 
-	while (strcmp(key, start) != 0) {
-		*delNum = 0;
+	do {
+		delNum = 0;
 		DV = DVList_->iter();
-		revenue = DV->performDeliveryDay(delNum);
-		totalDeliveries += *delNum;
+		revenue = DV->performDeliveryDay(PdelNum);
+		totalDeliveries += delNum;
 		totalRevenue += revenue;
 		key = DV->getID();
-	}
+	} while (strcmp(key, start) != 0);
 	deliveryNum_ += totalDeliveries;
 	cout << "Total revenue for company is " << totalRevenue << endl;
 	money_ += totalRevenue;
@@ -77,9 +82,7 @@ void DeliveryCompany::displayNumberOfDeliveries() {
 }
 
 
-DeliveryCompany:~DeliveryCompany() {
-	delete money_;
+DeliveryCompany::~DeliveryCompany() {
 	delete DVList_;
-	delete deliveryNum_;
 }
 

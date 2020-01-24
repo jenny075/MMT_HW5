@@ -1,10 +1,14 @@
 #ifndef FASTDELIVERYCOMPANY_H_
 #define FASTDELIVERYCOMPANY_H_
 #include "DeliveryCompany.H"
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream> // cout, endl
+#include <string.h> // strlen, strcpy
 class FastDeliveryCompany:public DeliveryCompany {
 public:
 	//c'tor
-	FastDeliveryCompany(int money);
+	FastDeliveryCompany(int money = 100);
 	
 	//d'tor
 	//~FastDeliveryCompany();

@@ -1,15 +1,12 @@
 #include "ProfessionalDeliveryCompany.H"
 
 
-ProfessionalDeliveryCompany::ProfessionalDeliveryCompany(int money = 100) {
-	int money_ = money;
-	DeliveryVehicleList* DVList_ = DeliveryVehicleList();
-	int deliveryNum_ = 0
+ProfessionalDeliveryCompany::ProfessionalDeliveryCompany(int money):DeliveryCompany(money){
 }
 
 
 bool ProfessionalDeliveryCompany::addVehicle(DeliveryVehicle* vehicle) {
-	if (vehicle->getType() == proffesional) {
+	if (vehicle->getType() == professional) {
 		delete vehicle;
 		return false;
 	}
