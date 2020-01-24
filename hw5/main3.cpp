@@ -9,7 +9,6 @@
 #include <cstdio>
 #include <math.h>
 #include <iostream>
-#define _CRT_SECURE_NO_WARNINGS
 using namespace  std;
 char* createNameID(const char* name,int ID)
 {
