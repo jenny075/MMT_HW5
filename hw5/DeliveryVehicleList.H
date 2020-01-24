@@ -24,7 +24,7 @@ public:
 }
 
 
-class DeliveryVehicleList {
+class DeliveryVehicleList{
 protected:
 	listItem* list_;
 	listItem* curr_;

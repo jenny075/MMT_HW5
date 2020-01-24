@@ -2,8 +2,8 @@
 
 DeliveryCompany::DeliveryCompany(int money = 100) {
 	int money_ = money;
-	DeliveryVehicleList* DVList_ = DeliveryVehicleList();
-	int deliveryNum_ = 0
+	DeliveryVehicleList* DVList_ = new DeliveryVehicleList();
+	int deliveryNum_ = 0;
 
 }
 
@@ -68,7 +68,7 @@ bool DeliveryCompany::performDeliveryDay() {
 
 
 void DeliveryCompany::displayFunds() {
-	cout << "Company balance is now  " << money_
+	cout << "Company balance is now  " << money_;
 }
 
 
@@ -77,5 +77,9 @@ void DeliveryCompany::displayNumberOfDeliveries() {
 }
 
 
-
+DeliveryCompany:~DeliveryCompany() {
+	delete money_;
+	delete DVList_;
+	delete deliveryNum_;
+}
 
