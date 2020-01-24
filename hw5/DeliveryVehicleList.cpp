@@ -2,8 +2,8 @@
 
 
 
-listItem::listItem(void* item) {
-	void* item_     = item;
+listItem::listItem(DeliveryVehicle* item) {
+	DeliveryVehicle* item_     = item;
 	listItem* back_ = NULL;
 	listItem* next_ = NULL;
 	
@@ -63,8 +63,7 @@ void DeliveryVehicleList::addVehicle(DeliveryVehicle* newDV) {
 bool DeliveryVehicleList::isIn(char* id) {
 	listItem* curr = list_;
 	if (curr != NULL) {
-		char* itid = ((DeliveryVehicle*)(list_->item()))->getID();
-		if (strcmp(itid, id) == 0) {
+		if (strcmp(((DeliveryVehicle*)(list_->item()))->getID(), id) == 0) {
 			return true;
 		}
 	}

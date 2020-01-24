@@ -16,7 +16,7 @@ protected:
 public:
 
 	//c'tor
-	listItem(void* item);
+	listItem(DeliveryVehicle* item);
 
 	void* item();
 
