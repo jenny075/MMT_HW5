@@ -61,4 +61,6 @@ int  ProfessionalDeliveryVehicle::performDeliveryDay(int* numberOfDeliveries) {
 	return revenue;
 }
 
+ProfessionalDeliveryVehicle::~ProfessionalDeliveryVehicle() {
 
+}
