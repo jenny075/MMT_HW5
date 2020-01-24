@@ -1,6 +1,6 @@
 #ifndef DELIVERYVEHICLELIST_H_
 #define DELIVERYVEHICLELIST_H_
-
+#include "DeliveryVehicle.H"
 class listItem {
 protected:
 	listItem* back_;
@@ -25,6 +25,10 @@ public:
 
 
 class DeliveryVehicleList {
+protected:
+	listItem* list_;
+	listItem* curr_;
+
 public:
 
 	//c'tor
@@ -48,12 +52,5 @@ public:
 	// resets the iterator to the 1st item in the list.
 	void itereset();
 
-	//
-	DeliveryVehicle* Current();
-
-
-protected:
-	listItem* list_;
-	listItem* curr_;
 }
 #endif /* FASTDELIVERYVEHICLE_H_ */

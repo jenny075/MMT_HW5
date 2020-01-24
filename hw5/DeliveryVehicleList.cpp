@@ -10,26 +10,26 @@ listItem::listItem(void* item) {
 }
 
 
-listItem::item() {
+void* listItem::item() {
 	return item_;
 }
 
 
-listItem::next() {
+listItem* listItem::next() {
 	return next_;
 }
 
-listItem::nextSet(listItem* next) {
-	return next_ = next;
+void listItem::nextSet(listItem* next) {
+	next_ = next;
 }
 
 
-listItem::back() {
+listItem* listItem::back() {
 	return back_;
 }
 
-listItem::backSet(listItem* back) {
-	return back_ = back;
+void listItem::backSet(listItem* back) {
+	back_ = back;
 }
 
 
@@ -46,22 +46,22 @@ DeliveryVehicleList::DeliveryVehicleList() {
 }
 
 
-DeliveryVehicleList::addVehicle(DeliveryVehicle* newDV) {
+void DeliveryVehicleList::addVehicle(DeliveryVehicle* newDV) {
 	listItem* curr = list_;
 	if (curr == NULL) {
-		listItem* list_ = listItem(newDV);
+		listItem* list_ = new listItem(newDV);
 		curr_ = list_;
 	}
 	else {
-		listItem* newitem = listItem(newDV);
+		listItem* newitem = new listItem(newDV);
 		curr->backSet(newitem);
 		newitem->nextSet(curr);
 	}
 }
 
 
-DeliveryVehicleList::isIn(char* id) {
-	itemList* curr = list_;
+bool DeliveryVehicleList::isIn(char* id) {
+	listItem* curr = list_;
 	if (curr != NULL) {
 		if (strcmp(curr->item()->getID(), id) == 0) {
 			return true;
@@ -76,22 +76,25 @@ DeliveryVehicleList::isIn(char* id) {
 }
 
 
-DeliveryVehicleList::iter() {
-	DeliveryVehicle* ret   = curr_->item();
-	curr_ = curr_->next();
-	if (curr_ == NULL) {
-		curr_ = list_;
+DeliveryVehicle* DeliveryVehicleList::iter() {
+	if (curr_ != NULL) {
+		DeliveryVehicle* ret = (DeliveryVehicle*)curr_->item();
+		curr_ = curr_->next();
+		if (curr_ == NULL) {
+			curr_ = list_;
+		}
+		return ret;
 	}
-	return ret
+	return NULL;
 }
 
-DeliveryVehicleList::itereset() {
+void DeliveryVehicleList::itereset() {
 	curr_ = list_;
 }
 
 
 DeliveryVehicleList::~DeliveryVehicleList() {
-	curr_ = Null;
+	curr_ = NULL;
 	listItem* tmp = list_;
 	list_ = list_->next();
 	while (tmp != NULL) {
@@ -102,11 +105,7 @@ DeliveryVehicleList::~DeliveryVehicleList() {
 }
 
 
-DeliveryVehicleList::reiter() {
+void DeliveryVehicleList::reiter() {
 	curr_ = curr_->back();
 }
 
-
-DeliveryVehicleList::Current() {
-	return curr_;
-}

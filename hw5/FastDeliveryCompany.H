@@ -1,7 +1,7 @@
 #ifndef FASTDELIVERYCOMPANY_H_
 #define FASTDELIVERYCOMPANY_H_
-
-class FastDeliveryCompany{
+#include "DeliveryCompany.H"
+class FastDeliveryCompany:DeliveryCompany {
 public:
 	//c'tor
 	FastDeliveryCompany(int money);
