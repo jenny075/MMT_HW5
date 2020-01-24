@@ -14,7 +14,7 @@ bool DeliveryCompany::addVehicle(DeliveryVehicle* vehicle) {
 	if (isIn) {
 		delete vehicle;
 		return false;
-	}
+	} 
 	DVList_->addVehicle(vehicle);
 	return true;
 }
